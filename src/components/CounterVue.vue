@@ -1,7 +1,7 @@
 <template>
   <section>
     <h3>Counter: {{ count }}</h3>
-    <h3>Square: {{ squareCounter }}</h3>
+    <h3 data-testid="square-label">Square: {{ squareCounter }}</h3>
     <div>
       <button class="btn" @click="count++">+1</button>
       <button class="btn" @click="count--">-1</button>
